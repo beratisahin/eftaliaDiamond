@@ -1,0 +1,16 @@
+.aboutImage {
+  width: 80%;
+  max-height: 100%;
+  overflow: hidden;
+  justify-content: center;
+  margin: auto;
+  img {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+}
+.about-description {
+  font-size: 0.9rem;
+  color: #6f6f6f;
+}
