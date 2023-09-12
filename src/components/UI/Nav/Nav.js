@@ -23,7 +23,7 @@ const Nav = () => {
     <nav className={`navbar navbar-expand-md bg-light ${navClass}`}>
       <div className='container'>
         <a className='navbar-brand' href='/' target="_blank">
-         <img src={logo2} style={{height:"40%", width:"40%"}}></img>
+         <img src={logo2} style={{height:"70px", width:"210px"}}></img>
          
         
         </a>
