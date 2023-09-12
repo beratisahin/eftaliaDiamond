@@ -6,7 +6,7 @@ import Service from './Service/Service';
 import Facts from './Facts/Facts';
 import Blog from './Blog/Blog';
 import Contact from './Contact/Contact';
-import Education from "./Education/Education";
+import Device from "./Device/Device";
 import Kvkk from "./Kvkk/Kvkk";
 import MapMarker from './MapMarker/MapMarker';
 
@@ -17,7 +17,7 @@ const sections = () => {
       <About />
       <Service />
       <Facts />
-      <Education />
+      <Device />
       <Contact />
       <Kvkk />
       <MapMarker />

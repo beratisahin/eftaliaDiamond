@@ -60,7 +60,7 @@ const contact = () => {
        
       <div class="col-lg-3s col-md-3 col-sm-12 col-12 p-5">
         <a
-          href="tel: +905431373548"
+          href="tel: +905521840225"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -68,38 +68,38 @@ const contact = () => {
         </a>
         <p className="contactText">
         <span style={{color:"#844c9c"}}><b>Rezervasyon:</b></span><br/>
-          <b>0543 137 35 48</b>
+          <b>0552 184 02 25</b>
         </p>
       </div>
       
       <div class="col-lg-3s col-md-3 col-sm-12 col-12 p-5">
-      <a href="https://wa.me/+905431373548" target="_blank">
+      <a href="https://wa.me/+905521840225" target="_blank">
           <img src={i4} className="contactIcons" title="WhatsApp için Tıklayınız"></img>
         </a>
         <p className="contactText">
         <span style={{color:"#844c9c"}}><b>WhatsApp:</b></span><br/>
-          <b>0543 137 35 48</b>
+          <b>0552 184 02 25</b>
         </p>
       </div>
       <div class="col-lg-3s col-md-3 col-sm-12 col-12 p-5">
-        <a href="https://www.instagram.com/uzmanpsikologhanifeaygun/" target="_blank">
+        <a href="https://www.instagram.com/eftalia.diamond.beauty/" target="_blank">
           <img src={i5} className="contactIcons" title="Instagram için Tıklayınız"></img>
         </a>
         <p className="contactText">
         <span style={{color:"#844c9c"}}><b>Instagram:</b></span><br/>
-          @uzmanpsikologhanifeaygun
+          @eftalia.diamond.beauty
         </p>
       </div>
       <div class="col-lg-3s col-md-3 col-sm-12 col-12 p-5">
         <a
-          href="https://tr.linkedin.com/in/hanife-ayg%C3%BCn-098584240"
+          href="https://www.facebook.com/people/Erzurum-Eftalia-Diamond-Beauty/100095782531206/"
           target="_blank"
         >
           <img src={i6} className="contactIcons" title="Facebook için Tıklayınız"></img>
         </a>
         <p className="contactText">
-        <span style={{color:"#844c9c"}}><b>LinkedIn:</b></span><br/>
-          Hanife Aygün
+        <span style={{color:"#844c9c"}}><b>Facebook:</b></span><br/>
+        @eftalia.diamond.beauty
         </p>
       </div>
       </div>

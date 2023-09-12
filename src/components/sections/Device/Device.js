@@ -1,13 +1,13 @@
 import React from "react";
 import Section from "../../../HOC/Section";
 
-const Education = () => {
+const Device = () => {
   return (
-    <Section id="Education">
+    <Section id="Device">
       <div className="container pt-2 pb-5">
         <div className="section-header pt-5 pb-5 text-center">
           <h3 className="section-title">
-            <span> </span>Eğitimlerim
+            <span> </span>Cihazlar
           </h3>
           <ul class="list-group">
             <li class="list-group-item">•	Bilişsel Davranışçı Terapi</li>
@@ -28,4 +28,4 @@ const Education = () => {
   );
 };
 
-export default Education;
+export default Device;

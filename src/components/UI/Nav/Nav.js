@@ -13,7 +13,7 @@ const Nav = () => {
   useEffect(() => {
     window.addEventListener('scroll', () => {
       let navClass = '';
-      if (window.scrollY >= 200) {
+      if (window.scrollY >= 300) {
         navClass = 'scrolled';
       }
       setNavClass(navClass);
@@ -23,7 +23,7 @@ const Nav = () => {
     <nav className={`navbar navbar-expand-md bg-light ${navClass}`}>
       <div className='container'>
         <a className='navbar-brand' href='/' target="_blank">
-         <img src={logo2} style={{height:"50%", width:"50%"}}></img>
+         <img src={logo2} style={{height:"40%", width:"40%"}}></img>
          
         
         </a>
@@ -62,8 +62,8 @@ const Nav = () => {
               </Link>
             </li>
             <li className='nav-item'>
-              <Link target='Education' classes='nav-link'>
-              EĞİTİMLER
+              <Link target='Device' classes='nav-link'>
+              CİHAZLAR
               </Link>
             </li>
             <li className='nav-item'>
