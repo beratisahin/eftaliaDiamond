@@ -2,9 +2,9 @@ import React from "react";
 
 import Section from "../../../HOC/Section";
 
-import blogImage1 from "../../../assets/img/1.png";
-import blogImage2 from "../../../assets/img/2.png";
-import blogImage3 from "../../../assets/img/3.png";
+import blogImage1 from "../../../assets/img/b1.PNG";
+import blogImage2 from "../../../assets/img/b2.PNG";
+import blogImage3 from "../../../assets/img/b3.PNG";
 
 const Blog = () => {
   return (
@@ -12,7 +12,7 @@ const Blog = () => {
       <div className="container pt-2 pb-5">
         <div className="section-header pt-5 pb-5 text-center">
           <h3 className="section-title">
-            <span> </span>Yazılarımız
+            <span> </span>Blog
           </h3>
           <h6 className="section-subtitle mr-auto ml-auto"></h6>
         </div>
@@ -22,20 +22,26 @@ const Blog = () => {
               <div className="card rounded-0">
                 <img src={blogImage1} className="card-img-top" alt="Blog 1" />
                 <div className="card-body">
-                  <h5 className="card-title">PSİKOLOG NEDİR?</h5>
+                  <h5 className="card-title">Zayıflamada Krom Etkisi?</h5>
                   <p className="card-text">
-                    Psikoloji insanı kaynak olarak alan bir bilim dalıdır.
-                    Psikoloji bilim dallarının en genç üyelerinden biridir,
-                    bunun sebebi insan psikolojisinin bir bilim şeklinde ele
-                    alınmasının yeni sayılan bir gelişme olmasındandır. İnsan
-                    psikolojisi diğer pek çok canlıdan daha farklıdır. Dünya
-                    üzerinde düşünen tek varlıkların insanlar olmasından dolayı
-                    yaşanan tecrübelerin bizi nasıl etkilediği konusunda da
-                    insandan başka bir yerde cevap aranamaz. Psikoloji bir
-                    insanın yaptığı davranışlara niçin sorusunu yöneltir. Bu
-                    soru çevresinde oluşan cevaplar ile insanı anlamaya çalışır.
+                    İştah artışı krom eksikliği yaşayanlarda ortaya çıkmaktadır.
+                    Vücutta idrarla fazla krom atılınca kan şekeri yükselir ve
+                    tatlıya karşı aşırı istek gözlenebilir. Bunun mekanizması
+                    nedir? Vücutta bu nasıl işler? Yemekten hemen sonra besinler
+                    sindirime uğrar. Sindirime uğrayan bu besinler enzimler
+                    sayesinde glukoza (şeker) parçalanır. Enerji üretmek için bu
+                    glukoz vücudun belirli hücrelere: -Yağ hücreleri -Kas
+                    hücreleri -Karaciğer hücrelerine girmek zorundadır. Ama bunu
+                    tek başına yapamaz. Bu iş için pankreastan salınan bir
+                    hormon olan insüline ihtiyaç duymaktadır. İnsülin sayesinde
+                    kanda dolaşan glukoz düzeyinde düşme gözlenir.
                   </p>
-                  <a href="#!" className="btn btn-sm btn-primary">
+                  <a
+                    href="https://www.instagram.com/eftalia.diamond.beauty/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="btn btn-primary rounded-0 mr-2"
+                  >
                     Daha Fazla Bilgi
                   </a>
                 </div>
@@ -45,20 +51,26 @@ const Blog = () => {
               <div className="card rounded-0">
                 <img src={blogImage2} className="card-img-top" alt="Blog 2" />
                 <div className="card-body">
-                  <h5 className="card-title">Öfke Kontrolü Bozukluğu Nedir?</h5>
+                  <h5 className="card-title">CİLT BAKIMI NEDEN LAZIM?</h5>
                   <p className="card-text">
-                    fke, bireylerin kendilerini tehdit altında hissetmeleri
-                    durumunda doğal içgüdü olarak sergilemiş olduğu duygusal
-                    tepkidir. Öfke kontrolünün zorlaştığı durumlarda bireyler
-                    başta kendisi olmak üzere karşı tarafı incitecek ya da zarar
-                    verecek tepkileri hem söyleyebilir hem de yapabilir. Bu
-                    durumların oluş şekline öfke bozukluğu ismi verilmektedir.
-                    Buna göre öfke bir bozukluk olarak değil, öfkenin gösterilme
-                    şekli, kontrol altında tutulamama durumları ve öfke
-                    belirtilerinin incitici ve zarar verici durumlar sonucunda
-                    gösterilmesi öfke kontrol bozukluğu olarak tanımlanmaktadır.
+                    Cildimiz vücudumuzun en büyük organı olup birçok katmandan
+                    oluşmuştur. Sinirler, salgı bezleri ,saç ve tırnakları
+                    barındıran büyük bir sistemin parçasıdır. . En önemli görevi
+                    de bu unsurlar arasında bir bariyer görevi görmesidir. En
+                    önemli soru: Bu bariyeri nasıl koruruz, cilt bakımı nasıl
+                    yapılmalı? Cildimiz, vücudumuzun her yerinde aynı kalınlıkta
+                    değildir. Yüzümüzde daha narinken avuç içleri ya da ayak
+                    tabanlarımızda daha kalındır. Esas olan cildin bariyerini
+                    sağlam tutmaktır. Bunu deriye hasar verebilecek ajanlardan
+                    kaçarak ve bol şekilde nemlendirerek sağlayabiliriz. Cilt
+                    sabah ve akşam uygun bir ürünü ile temizlenmelidir.
                   </p>
-                  <a href="#!" className="btn btn-sm btn-primary">
+                  <a
+                    href="https://www.instagram.com/eftalia.diamond.beauty/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="btn btn-primary rounded-0 mr-2"
+                  >
                     Daha Fazla Bilgi
                   </a>
                 </div>
@@ -68,21 +80,27 @@ const Blog = () => {
               <div className="card rounded-0">
                 <img src={blogImage3} className="card-img-top" alt="Blog 3" />
                 <div className="card-body">
-                  <h5 className="card-title">Sendeleyen Hayattan Kurtulmak</h5>
+                  <h5 className="card-title">Göz Altı Morarması Neden Olur?</h5>
                   <p className="card-text">
-                    İhtiyaçlarımızın arttığı, yaşamımızın hızlandığı ve iş
-                    çevremizden aile, arkadaş çevremize kadar sosyal
-                    ilişkilerimizin daha girift hale geldiği günümüz modern
-                    dünyasında kimi zaman insan psikolojisi bu tempoya uygun
-                    cevaplar veremeyebiliyor. İşte sizin ihtiyacınıza göre
-                    psikolojik danışmanlık hizmeti veren Uzm. Klinik Psikolog
-                    Furkan LENK bunun için var. Dış yaşamımızdaki tempoya ayak
-                    uyduracağım derken oldukça yıpranabilen psikolojinize
-                    takviye yapmak için ya da bir başka yöntem olarak hayatınıza
-                    dair uygun kararlar verebilmeniz adına rehberlik takviyesi
-                    yapmak için var.
+                    Aynaya baktığımızda bizleri karşılayan göz çevresindeki koyu
+                    halkalar canımızı sıkar. Direkt olarak göz çevresi
+                    morarmasının sebebini merak edilir. Bunun ile beraber göz
+                    altı morluğuna ne iyi gelir sorusuna da yanıt aranır.
+                    Gözaltlarındaki morarmasebepleri nelerdir? Göz altı
+                    morarmasının birçok sebebi bulunmaktadır. Genetik ve
+                    çevresel sebeplere bağlı olarak göz çevresi morarması
+                    oluşabilmektedir. Morarmanın başlıca sebepleri: • Göz
+                    çevresindeki cildin narin bir yapıya sahip olması, • Mavi
+                    ışıkla uzun süre temas, • Doğum kontrol hapı, göz damlaları
+                    veya kanser ilaçları, • Dolaşım bozukluğu, • Uyku
+                    düzensizliği, • Genetik faktörler.
                   </p>
-                  <a href="#!" className="btn btn-sm btn-primary">
+                  <a
+                    href="https://www.instagram.com/eftalia.diamond.beauty/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="btn btn-primary rounded-0 mr-2"
+                  >
                     Daha Fazla Bilgi
                   </a>
                 </div>

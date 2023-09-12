@@ -3,7 +3,7 @@ import Section from "../../../HOC/Section";
 
 const Device = () => {
   return (
-    <Section id="Device">
+    <Section id="device">
       <div className="container pt-2 pb-5">
         <div className="section-header pt-5 pb-5 text-center">
           <h3 className="section-title">

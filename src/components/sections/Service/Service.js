@@ -191,29 +191,63 @@ const Service = () => {
               <div className="col-md-12 col-lg-12 mb-12">
                 <br />
                 <ul class="list-group">
-                  <li class="list-group-item active" aria-current="true">
-                    <b>Aile ve Çift Terapisi</b>
+                <li class="list-group-item active" aria-current="true" style={{backgroundColor:"#844c9c"}}>
+                    <b>Lazer Epilasyonun Faydaları</b>
                   </li>
-                  <li class="list-group-item">
-                    ·        Aile İçi İletişim Sorunları
-                  </li>
-                  <li class="list-group-item">·        Çatışmalar</li>
-                  <li class="list-group-item">
-                    ·        Boşanma ve Boşanma Sonrası Süreç
-                  </li>
-                  <li class="list-group-item">·        Aldatma</li>
-                  <li class="list-group-item">
-                    ·        İlişki İçindeki Temel İhtiyaçlar
-                  </li>
+                  <li class="list-group-item">·        Kalıcı Sonuçlar: Lazer epilasyon, istenmeyen tüyleri kökten yok ederek kalıcı sonuçlar sağlar. Doğru şekilde uygulandığında, tüyler geri gelmez veya çok daha ince ve seyrek olarak yeniden büyür.</li>
+                  <li class="list-group-item">·        Hız ve Verimlilik: Lazer epilasyon, büyük bölgelerde hızlı ve etkili bir şekilde uygulanabilir. Örneğin, bacakları veya sırtı kısa sürede tedavi etmek mümkündür.</li>
+                  <li class="list-group-item">·        Daha Az Ağrı ve Rahatsızlık: Diğer epilasyon yöntemlerine kıyasla, lazer epilasyon daha az ağrılıdır. Ayrıca işlem sırasında genellikle rahatsızlık hissi azdır.</li>
+                  <li class="list-group-item">·        Uzun Vadeli Maliyet Tasarrufu: Kalıcı sonuçlar elde edildiğinde, uzun vadede tıraş bıçakları veya epilasyon kremleri gibi diğer tüy alma yöntemlerine harcanan maliyeti azaltabilir.</li>
                 </ul>
                 <br />
                 <ul class="list-group">
-                  <li class="list-group-item active" aria-current="true">
-                    <b>Cinsel Terapiler</b>
+                  <li class="list-group-item active" aria-current="true" style={{backgroundColor:"#844c9c"}}>
+                    <b>Cilt Bakımının Faydaları</b>
                   </li>
-                  <li class="list-group-item">·        Vajinismus</li>
-                  <li class="list-group-item">·        Disparoni</li>
-                  <li class="list-group-item">·        Cinsel İsteksizlik</li>
+                  <li class="list-group-item">·        Cildin parlak ve iyi durumda kalması önemlidir.</li>
+                  <li class="list-group-item">·        Cildin nemli ve dengeli kalmasına katkı sağlar.</li>
+                  <li class="list-group-item">·        Cildin sıkı ve eşit tonda kalmasına destek olur</li>
+                  <li class="list-group-item">·        Akne ve toksinlerin neden olabileceği sorunları en aza indirir.</li>
+                </ul>
+                <br />
+                <ul class="list-group">
+                <li class="list-group-item active" aria-current="true" style={{backgroundColor:"#844c9c"}}>
+                    <b>Kavitasyonun Faydaları</b>
+                  </li>
+                  <li class="list-group-item">·        Yağ Kaybı: Kavitasyon, yağ hücrelerinin zarlarını titreterek yağların serbest hale gelmesine ve vücuttan atılmasına yardımcı olur. </li>
+                  <li class="list-group-item">·        Ses Dalgaları ile Çalışır: Kavitasyon işlemi için yüksek yoğunluklu ses dalgaları kullanılır, bu nedenle cerrahi müdahale veya iğne enjeksiyonları gibi invazif prosedürlerin risklerini ortadan kaldırır.</li>
+                  <li class="list-group-item">·        Vücut Kontürünü İyileştirir: Kavitasyon, istenmeyen yağ birikintilerinin bulunduğu bölgelerde vücut kontürünü düzeltebilir. Özellikle karın, kalça, bacak ve sırt bölgelerinde kullanılan popüler bir teknolojidir.</li>
+                  <li class="list-group-item">·        Kolay Uygulama: Kavitasyon işlemi non-invazif olduğu için ağrısız ve rahattır. İşlem sırasında anestezi veya dikiş gerektirmez.</li>
+                </ul>
+                <br />
+                <ul class="list-group">
+                  <li class="list-group-item active" aria-current="true" style={{backgroundColor:"#844c9c"}}>
+                    <b>G5 Selülit Masajının Faydaları</b>
+                  </li>
+                  <li class="list-group-item">·        Selülit Görünümünü Azaltır: G5 Selülit Masajı, selülit olarak bilinen cilt yüzeyinin "portakal kabuğu" görünümünü azaltmada etkili olabilir.</li>
+                  <li class="list-group-item">·        Sıkılaştırıcı Etki: G5 masajı cildin altındaki kolajen üretimini teşvik edebilir. Bu, cilt dokusunun sıkılaşmasına ve daha genç bir görünüm kazanmasına yardımcı olabilir.</li>
+                  <li class="list-group-item">·        Yağ Kaybını Destekler: G5 masajı, yağ hücrelerinin içerisindeki yağları serbest bırakabilir ve lenfatik drenajı uyararak vücuttan atılmasına yardımcı olabilir. Bu, yağ kaybını destekleyebilir.</li>
+                  <li class="list-group-item">·       Dolaşımı İyileştirir: G5 masajı, kan dolaşımını artırır. İyileşmiş kan dolaşımı, dokulara daha fazla oksijen ve besin maddesi taşır ve toksinlerin daha etkili bir şekilde atılmasına yardımcı olabilir.</li>
+                </ul>
+                <br />
+                <ul class="list-group">
+                <li class="list-group-item active" aria-current="true" style={{backgroundColor:"#844c9c"}}>
+                    <b>Kalıcı Makyajın Faydaları</b>
+                  </li>
+                  <li class="list-group-item">·        Cilt İçin Daha Az Kimyasal Kullanımı: Kalıcı makyaj, günlük makyaj ürünlerinin kullanımını azaltır. Bu, cildinizin daha az kimyasala maruz kalmasını sağlar.</li>
+                  <li class="list-group-item">·        Kusursuz Dudak Renkleri: Kalıcı makyaj, dudaklara doğal ve kusursuz bir renk verir. Dudak kontürünü belirginleştirir ve dudaklara hacim katar.</li>
+                  <li class="list-group-item">·        Saatlerce Makyaj Yapma Zamanından Tasarruf: Kalıcı makyaj, her gün saatlerce makyaj yapma ihtiyacını ortadan kaldırır. Sabahları daha fazla uyumak veya hazırlık süresini azaltmak için zaman kazandırabilir.</li>
+                  <li class="list-group-item">·        Kaş ve Göz Hatlarını Düzeltebilir: Kalıcı makyaj, seyrek kaşları doldurabilir, dengesiz veya kayıp kaşları düzeltebilir ve göz hatlarını belirginleştirebilir. Bu, yüz simetrisini iyileştirir.</li>
+                </ul>
+                <br />
+                <ul class="list-group">
+                  <li class="list-group-item active" aria-current="true" style={{backgroundColor:"#844c9c"}}>
+                    <b>Yosun Peelingin Faydaları</b>
+                  </li>
+                  <li class="list-group-item">·        Uygulandıktan sonra cildi katman katman soyar.</li>
+                  <li class="list-group-item">·        Kararmış bölgelerin rengi açılır, cilt pigmentasyonu sağlanır ve cilt tonu eşitlenir.</li>
+                  <li class="list-group-item">·        Kırışıklık ve elastikiyet gibi yaşlanmadan kaynaklı cilt sorunları en aza indirilir.</li>
+                  <li class="list-group-item">·        Akne, leke, skar, yara vb. izler yok olur.</li>
                 </ul>
                 <br />
               </div>

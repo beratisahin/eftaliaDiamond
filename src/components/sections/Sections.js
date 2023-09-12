@@ -17,7 +17,8 @@ const sections = () => {
       <About />
       <Service />
       <Facts />
-      <Device />
+      {/*<Device />*/}
+      <Blog />
       <Contact />
       <Kvkk />
       <MapMarker />

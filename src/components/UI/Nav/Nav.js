@@ -61,9 +61,14 @@ const Nav = () => {
                 HİZMETLER
               </Link>
             </li>
-            <li className='nav-item'>
-              <Link target='Device' classes='nav-link'>
+            {/*<li className='nav-item'>
+              <Link target='device' classes='nav-link'>
               CİHAZLAR
+              </Link>
+            </li> */}
+            <li className='nav-item'>
+              <Link target='blog' classes='nav-link'>
+              BLOG
               </Link>
             </li>
             <li className='nav-item'>
